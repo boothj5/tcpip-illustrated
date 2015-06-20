@@ -1,1 +1,1 @@
-int somefunc(void);
+int ip_valid(char *ipaddr);
