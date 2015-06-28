@@ -45,3 +45,14 @@ ip_valid(char *ipaddr)
 
     return TRUE;
 }
+
+int
+ip_to_bin(char *ipaddr)
+{
+    gboolean valid = ip_valid(ipaddr);
+    if (!valid) {
+        return -1;
+    } else {
+        return 1312;
+    }
+}

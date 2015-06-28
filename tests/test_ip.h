@@ -8,3 +8,5 @@ void test_ip_invalid_contains_chars(void **state);
 void test_ip_invalid_leading_zero(void **state);
 void test_ip_invalid_too_many_digits_quad(void **state);
 void test_ip_invalid_quad_out_of_range(void **state);
+
+void test_to_bin_returns_minus_one_when_invalid(void **state);
